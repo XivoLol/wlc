@@ -1,3 +1,0 @@
-node gg.js
-
-PAUSE
