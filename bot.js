@@ -5,7 +5,7 @@ var jimp = require('jimp');
 const fs = require("fs");
 
       bot.on('guildMemberAdd', member => {
-      const welcomer =  member.guild.channels.find('name', '『welcome');
+      const welcomer =  member.guild.channels.find('name', '🔥chat🔥');
 
       var Canvas = require('canvas')
       var jimp = require('jimp')
@@ -74,4 +74,4 @@ const fs = require("fs");
 
 
 
-bot.login("TOKEN HERE");
+bot.login(process.env.BOT_TOKEN);
