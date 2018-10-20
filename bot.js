@@ -5,7 +5,7 @@ var jimp = require('jimp');
 const fs = require("fs");
 
       bot.on('guildMemberAdd', member => {
-      const welcomer =  member.guild.channels.find('name', 'sh welcome');
+      const welcomer =  member.guild.channels.find('name', '-sh-welcome-');
 
       var Canvas = require('canvas')
       var jimp = require('jimp')
